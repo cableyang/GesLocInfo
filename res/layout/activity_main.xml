@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lee.geslocinfo.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/strview"
+            android:layout_width="fill_parent"
+            android:layout_height="92dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="0.12"
+            android:text="@string/disstr"
+            android:textSize="20sp" >
+        </TextView>
+
+        <Switch
+            android:id="@+id/blueswt"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textOn="开"
+        	android:textOff="关"
+            android:text="@string/linkblue" />
+
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/exit" />
+    </TableLayout>
+
+</FrameLayout>

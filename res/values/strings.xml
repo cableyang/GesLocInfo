@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">姿态位置信息监测软件</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="disstr">display string</string>
+    <string name="linkblue">连接蓝牙</string>
+    <string name="exit">退出</string>
+    <string name="switchon">蓝牙开</string>
+    <string name="switchoff">蓝牙关</string>
+
+</resources>
